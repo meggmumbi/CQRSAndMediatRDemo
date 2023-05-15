@@ -19,7 +19,7 @@ namespace CQRSAndMediatRDemo.Data
         }
 
 
-        DbSet<StudentDetails> Students { get; set; }
+        public DbSet<StudentDetails> Students { get; set; }
 
 
     }
